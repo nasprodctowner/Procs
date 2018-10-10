@@ -13,8 +13,7 @@ public class Server{
         //args[0] : localhost
         //args[1] : 61000 (num par défaut de rmiregistry)
 
-        Naming.rebind("//"+"localhost"+":"+"8080"+"/Annuaire", obj);
-
+        Naming.rebind("//"+args[0]+":"+args[1]+"/Annuaire",obj);
         System.out.println("Server ready ...");
     }
 }
