@@ -15,7 +15,7 @@ public class Client {
        ref_obj_distant.putContact("Ahmed", "38009072");
        ref_obj_distant.putContact("hani", "3800907");
 
-       System.out.println(ref_obj_distant.getContact("Nassim"));
+       System.out.println(ref_obj_distant.getContact("Ahmed"));
 
     }
 }

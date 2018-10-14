@@ -6,7 +6,7 @@ import java.util.Hashtable;
 
 public class AnnuaireImp extends UnicastRemoteObject implements AnnuaireItf {
 
-    public AnnuaireImp() throws RemoteException {
+    AnnuaireImp() throws RemoteException {
         super();
     }
 
